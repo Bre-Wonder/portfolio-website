@@ -140,6 +140,7 @@ margin: 25px;
 }
 
 
+
 @media all and (max-width: 500px) {
     .grid {
         grid-template-columns: 1fr;
@@ -161,6 +162,11 @@ margin: 25px;
     h1 {
         font-size: var(--header1);
     }
+    .meet-app-screenshot {
+        height: auto;
+        display: block;
+        margin: 0 auto;
+     }
 }
 
 
